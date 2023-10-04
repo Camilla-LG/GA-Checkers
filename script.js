@@ -25,6 +25,7 @@ function updateView(){
     <h1> Checkers </h1>
 
     <div id="checkersboard"></div>
+
   `;
   checkersboard();
 }
@@ -36,7 +37,7 @@ function checkersboard(){
             let checkersSquare = document.createElement('div');
             checkersSquare.className =  'checkers-square';
             if ((i + j) % 2 == 0){
-                checkersSquare.style.backgroundColor = '#000';
+                checkersSquare.style.backgroundColor = 'rgb(100, 100, 100)';
             }
             board.appendChild(checkersSquare);
         }

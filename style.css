@@ -18,7 +18,11 @@ body {
 .checkers-square {
     float: left;
     width: 48px;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     height: 48px;
     background-color: #fff;
+}
+
+.pieces {
+
 }
